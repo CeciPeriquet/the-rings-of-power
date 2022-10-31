@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main {
+    padding-top: 50px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+.legend {
+    font-weight: bold;
+}
+.title {
+    color: saddlebrown;
+    text-transform: uppercase;
+}
+.battle-fighter {
+    font-size: 18px;
+    font-weight: bold;
+    width: 330px;
+
+}
+.battle-start {
+    all: unset;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: saddlebrown;
+    color: bisque;
+    border-radius: 20px;
+}
