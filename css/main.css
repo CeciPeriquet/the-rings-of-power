@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
 }
 .main {
     padding-top: 50px;
@@ -39,4 +40,19 @@
     background-color: saddlebrown;
     color: bisque;
     border-radius: 20px;
+}
+.points {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: saddlebrown;;
+}
+
+.result-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
