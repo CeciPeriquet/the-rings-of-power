@@ -1,112 +1,113 @@
 * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  list-style: none;
 }
-
-
 .main {
-    padding: 50px;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    text-align: left;
+  /*  padding: 50px; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-align: left;
 }
-
 .img-container {
-    width: 200px;
-    height: 70vh;
-    background-image: url(../img/ring.jpeg);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 480px;
-    
+  width: 200px;
+  height: 550px;
+  background-image: url(../img/ring.jpeg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 480px;
 }
-
-
 .game-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 30px;
-    text-align: left;
-    padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+  text-align: left;
+  padding-right: 50px;
 }
-
 .game {
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    color: grey;
+  letter-spacing: 10px;
+  color: grey;
 }
 .game-text {
-    color: grey;
-    width: 400px;
+  color: grey;
+  width: 400px;
 }
-
-.game-text:first-letter {
-    text-transform: capitalize;
-  }
-
+.capitalize {
+  text-transform: capitalize;
+}
+.uppercase{
+  text-transform: uppercase;
+}
 .legend {
-    font-weight: bold;
-    width: 400px;
+  font-weight: bold;
+  width: 400px;
 }
-.legend:first-letter {
-    text-transform: capitalize;
-  }
-
+.game-text:first-letter,.legend:first-letter,.battle-fighter:first-letter{
+  text-transform: capitalize;
+}
 .title {
-    color:darkred;
-    text-transform: uppercase;
+  color: darkred;
 }
 .battle-fighter {
-    font-size: 16px;
-    border: solid 2px rgba(137, 134, 134, 0.5);
-    width: 330px;
-
-}
-.battle-start {
-    all: unset;
-    cursor: pointer;
-    width: 100px;
-    height: 40px;
-    font-size: 18px;
-    background-color: darkred;
-    color: white;
-    border-radius: 20px;
-    text-align: center;
-    margin-left: 20px;
+  font-size: 16px;
+  border: solid 2px rgba(137, 134, 134, 0.5);
+  width: 330px;
 }
 
+.battle-game {
+  display: flex;
+  justify-content: center;
+}
+.battle-start, .battle-reset {
+  all: unset;
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  background-color: darkred;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 20px;
+  text-transform: capitalize;
+ 
+}
+.hidden {
+  display: none;
+}
 .battle-result {
-    width: 400px;
-    height: 40px;
-    font-size: 20px;
-    background-color: darkred;
-    color: white;
-    border-radius: 20px;
-    text-align: center;
-    padding: 10px;
+  width: 400px;
+  height: 25px;
+  font-size: 20px;
+  background-color: darkred;
+  opacity: 0.5;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
 }
-
+.battle-result:first-letter{
+  text-transform: capitalize;
+}
 .points {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    font-size: 18px;
-    font-weight: bold;
-    color:darkred;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: darkred;
 }
-
-.result-list{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
+.result-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
